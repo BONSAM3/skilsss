@@ -154,22 +154,19 @@ p {
   color: rgb(134, 131, 131);
 }
 .course {
-  background-color: #b2bbc3;
-  text-align: center;
-  border-radius: 1rem;
-  margin-top: 3rem;
-  position: absolute;
   left: -10%;
   bottom: 5%;
-  padding: 1rem 2rem;
+}
+.mem,
+.course {
+  position: absolute;
+  border-radius: 1rem;
+  background-color: #b2bbc3;
+  width: 100px;
+  text-align: center;
 }
 .mem {
-  background-color: #b2bbc3;
-  text-align: center;
-  border-radius: 1rem;
-  position: absolute;
   right: -10%;
-  padding: 1rem 2rem;
   top: 5%;
 }
 i {
