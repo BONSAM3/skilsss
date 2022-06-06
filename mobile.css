@@ -1,0 +1,58 @@
+@media (max-width: 1050px) {
+  .get {
+    width: 20%;
+  }
+  button {
+    width: 45%;
+  }
+  .ft button {
+    width: 40%;
+  }
+}
+
+@media (max-width: 900px) {
+  .intro-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  .post {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .intro-content img {
+    width: 100%;
+  }
+  button {
+    width: 55%;
+  }
+}
+@media (max-width: 655px) {
+  button {
+    width: 80%;
+  }
+  .intro-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 490px) {
+  .get {
+    width: 30%;
+  }
+  .post {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .intro {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .intro-content img {
+    width: 100%;
+  }
+  button {
+    width: 60%;
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
