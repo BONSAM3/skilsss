@@ -102,11 +102,13 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  width: 100%;
 }
 .flex-item {
   background-color: whitesmoke;
   border-radius: 10px;
   padding: 1rem;
+  width: 100%;
 }
 .flex-item i {
   /* margin-bottom: 2rem; */
